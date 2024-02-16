@@ -21,6 +21,13 @@
 - Python
 - Prompt Engineering
 
+### The Complete Prompt Engineering Bootcamp 2023(_Nov'23_)
+<a href="Assets/PDFs/UC-469f37bc-a501-4b1b-ae02-b2a85a1edea2.pdf">View Certificate</a>
+<center><img src="Assets/Images/Screenshot 2024-02-16 113125.png"/></center>
+- Hypothesis Testing
+- Regression Analysis
+
+
 # Projects
 ## Data Analytics and Machine Learning
 ---
@@ -33,5 +40,23 @@ This project's primary objective is to analyze the Consumer Price Index (CPI) ac
 ##### Methodology
 In this project, we've used Python libraries - Pandas for data manipulation, and Matplotlib and Seaborn for data visualization. We've employed Pandas for its powerful data structures to efficiently handle and analyze the CPI data. Matplotlib and Seaborn have been used to create meaningful visualizations such as time series plots to identify trends over time, and comparative plots to understand the differences in CPI across states. These tools have enabled us to interpret the data effectively and draw insightful conclusions about the state-wise Consumer Price Index in India from 2011 to 2023.
 ##### Significance
-The analysis provides valuable insights into the economic conditions in different states, as reflected by the CPI. It can help policymakers, economists, and researchers in understanding the inflationary trends in India and formulating appropriate economic policies.
+The analysis provides valuable insights into the economic conditions in different states, as reflected by the CPI. It can help policymakers, economists, and researchers understand the inflationary trends in India and formulate appropriate economic policies.
 ##### Find the detailed report [here](https://github.com/Debnath-Goutam/State-Level-CPI/blob/main/State-wise%20Consumer%20Price%20Index%20(2011-2023)%20Analysis%20Report.pdf)
+
+## Data Analytics and Machine Learning
+---
+### Brest Cancer Prediction
+> Predictive Analysis of Brest Cancer based on a dataset of various features.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Debnath-Goutam/Breast-Cancer-Prediction)
+##### Objective
+This project aims to predict whether a patient has breast cancer based on certain features such as radius, perimeter, smoothness etc. The project aims to correctly predict as many malignant cases as possible.
+##### Methodology
+In this project, we've used Python libraries - Pandas for data manipulation, and Matplotlib and Seaborn for data visualization. We've employed Pandas for its powerful data structures to efficiently handle and analyze the CPI data. Matplotlib and Seaborn have been used to create meaningful visualizations such as time series plots to identify trends over time, and comparative plots to understand the differences in CPI across states. These tools have enabled us to interpret the data effectively and draw insightful conclusions about the state-wise Consumer Price Index in India from 2011 to 2023. In this project, we first do an **Exploratory Data Analysis** to find out any relations and correlations between the features and diagnosis and among the features themselves. Data Visualization is carried out using libraries such as Matplotlib and Seaborn. Then we move to model building and training. For this project, we have selected three machine learning algorithms, and the model giving the best estimate is chosen for making predictions. The three algorithms are:
+- **Logistic Regression**
+- **Random Forest Classifier**
+- **XGBoost Classifier**
+
+Hyperparameter tuning is done using the **5-fold Grid Search Cross Validation** technique. **Recall (Sensitivity)** given a higher preference in the evaluation of the models, as we aim to rather misclassify some benign cases than miss any malignant cases. Post model training and evaluation, we find that **XGBoost Classifier** gives the best estimate out of the three algorithms.
+##### Significance
+The project will help to quickly identify whether a case is benign or malignant in the quickest way possible, hastening the treatment process and saving expenses for the patients and the medical institutes.
