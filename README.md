@@ -60,3 +60,22 @@ In this project, we've used Python libraries - Pandas for data manipulation, and
 Hyperparameter tuning is done using the **5-fold Grid Search Cross Validation** technique. **Recall (Sensitivity)** given a higher preference in the evaluation of the models, as we aim to rather misclassify some benign cases than miss any malignant cases. Post model training and evaluation, we find that **XGBoost Classifier** gives the best estimate out of the three algorithms.
 ##### Significance
 The project will help to quickly identify whether a case is benign or malignant in the quickest way possible, hastening the treatment process and saving expenses for the patients and the medical institutes.
+
+### House Pricing Analysis
+> Uses a dataset of houses and analyses the dataset, providing the important features that dictate the prices of said houses
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Debnath-Goutam/Housing)
+##### Objective
+This project aims to build a model to determine the factors that dictate the prices of a prospective property and predict the actual value of the said properties and decide whether to invest in them or not.
+##### Methodology
+In this project, we've used Python libraries - Pandas for data manipulation, and Matplotlib and Seaborn for data visualization. We've employed Pandas for its powerful data structures to efficiently handle and analyze various factors that dictate the price of the houses. Matplotlib and Seaborn have been used to create meaningful visualizations such as comparative plots to understand the how the differen factors correlate with the price and among themselves. These tools have enabled us to interpret the data effectively and draw insightful conclusions about dependency of of prices on each and every factors. In this project, we first do an **Exploratory Data Analysis** to find out any relations and correlations between the different factors and the target variable, which is the price. Data Visualization is carried out using libraries such as Matplotlib and Seaborn. Then we move to model building and training. For this project, we have selected three machine learning algorithms, and the model giving the best estimate is chosen for making predictions. The three algorithms are:
+- **Linear Regression**
+- **Ridge Regression**
+- **Lasso Regression**
+
+Post model training and evaluation, we find that **Lasso Regression** gives the best estimate out of the three algorithms. Also, we determine that the top three factors that determine the price of the houses are as follows:
+- **GrLivArea**: Above ground living area in square feet.
+- **Neighborhood_NoRidge**: Houses located north ridge within Ames city limits.
+- **RoofMatl_WdShngl**: Wood Shingles as roof material.
+##### Significance
+This project will help the client to quickly and easily determine the price of properties when provided with all the details and help them to take an better decision to further their profits.
