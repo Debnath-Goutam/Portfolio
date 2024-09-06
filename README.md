@@ -45,7 +45,7 @@ The analysis provides valuable insights into the economic conditions in differen
 
 ## Data Analytics and Machine Learning
 ---
-### Brest Cancer Prediction
+### Breast Cancer Prediction
 > Predictive Analysis of Brest Cancer based on a dataset of various features.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Debnath-Goutam/Breast-Cancer-Prediction)
