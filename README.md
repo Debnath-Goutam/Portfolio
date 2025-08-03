@@ -5,7 +5,12 @@
 - Machine Learning
 
 # Work Experience
-### Assistant System Engineer @ Tata Consultancy Services Limited(_Dec'21 - Present_)
+
+### Assistant System Engineer @ Tata Consultancy Services limited(_Dec'22 - Present_)
+- Working as Outsystems Developer
+- Leading a team of enthusiastic developers to create bug-free solution for client
+
+### Assistant System Engineer - Trainee @ Tata Consultancy Services Limited(_Dec'21 - Dec-22_)
 - Worked on the BaNCS framework
 - Building Insurance products and bug fixing for the clients
 - Helped expand client's business by developing 2 new insurance products in 6 months
